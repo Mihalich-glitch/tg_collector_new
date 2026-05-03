@@ -1,0 +1,22 @@
+# Виртуальное окружение (папки с библиотеками)
+venv/
+venv_win/
+win_venv/
+env/
+.env
+
+# База данных SQLite
+*.db
+*.sqlite3
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Настройки VS Code и других редакторов
+.vscode/
+.idea/
+
+# Логи
+*.log

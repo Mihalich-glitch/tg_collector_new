@@ -1,0 +1,5 @@
+aiogram
+sqlalchemy
+aiosqlite
+aiohttp-socks
+python-dotenv
