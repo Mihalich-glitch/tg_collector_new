@@ -19,8 +19,7 @@ class Chat(Base):
 
 class Message(Base):
     __tablename__ = "messages"
-    # Для SQLite в качестве PK лучше использовать обычный Integer
-    id: Mapped[int] = mapped_column(Integer, primary_key=True) 
+    id: Mapped[int] = mapped_column(BigInteger, primary_key=True, autoincrement=True) 
     message_id: Mapped[int] = mapped_column(BigInteger)
     chat_id: Mapped[int] = mapped_column(BigInteger, ForeignKey("chats.id"))
     user_id: Mapped[int] = mapped_column(BigInteger, ForeignKey("users.id"))

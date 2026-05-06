@@ -13,6 +13,7 @@ env/
 __pycache__/
 *.py[cod]
 *$py.class
+.mypy_cache/
 
 # Настройки VS Code и других редакторов
 .vscode/

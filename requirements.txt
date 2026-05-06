@@ -1,5 +1,5 @@
-aiogram
-sqlalchemy
-aiosqlite
-aiohttp-socks
-python-dotenv
+aiogram==3.10.0
+SQLAlchemy==2.0.31
+asyncpg==0.29.0
+python-dotenv==1.0.1
+aiohttp-socks==0.8.4
