@@ -25,3 +25,6 @@ class Message(Base):
     user_id: Mapped[int] = mapped_column(BigInteger, ForeignKey("users.id"))
     text: Mapped[str] = mapped_column(Text, nullable=True)
     timestamp: Mapped[datetime] = mapped_column(DateTime)
+    attachment_type: Mapped[str] = mapped_column(String, nullable=True)
+    attachment_id: Mapped[str] = mapped_column(String, nullable=True)
+    reactions: Mapped[str] = mapped_column(Text, nullable=True)

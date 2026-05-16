@@ -5,10 +5,6 @@ win_venv/
 env/
 .env
 
-# База данных SQLite
-*.db
-*.sqlite3
-
 # Кэш Python
 __pycache__/
 *.py[cod]

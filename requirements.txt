@@ -3,3 +3,4 @@ SQLAlchemy==2.0.31
 asyncpg==0.29.0
 python-dotenv==1.0.1
 aiohttp-socks==0.8.4
+alembic==1.13.1
