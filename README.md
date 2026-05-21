@@ -39,7 +39,7 @@ BOT_TOKEN=123456789:AaBbCcDd...
 
 # Ссылка на вашу базу данных PostgreSQL
 # Формат: postgresql+psycopg://ЛОГИН:ПАРОЛЬ@localhost:5432/ИМЯ_БАЗЫ
-DATABASE_URL=postgresql+psycopg://postgres:mypassword@localhost:5432/tg_collector
+DATABASE_URL=postgresql+asyncpg://postgre:mypassword@localhost:5432/tg_collector
 ```
 
 ### 3. Настройка VPN и Прокси
